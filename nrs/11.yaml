@@ -1,0 +1,23 @@
+green:
+  enabled: false
+  image:
+  version:
+
+blue:
+  enabled: true
+  image: nginx
+  version: 1.19.2
+
+productionSlot: blue
+
+replicaCount: 1
+
+ingress:
+  hostname: nrs2.com
+  stagehostname: beta.nrs2.com
+
+
+
+index: hello world
+index_green: fsf
+index_blue: NRS2 version 4.0 - blue slot
