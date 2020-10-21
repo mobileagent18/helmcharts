@@ -1,0 +1,60 @@
+apiVersion: v1
+entries:
+  nonrevservices:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-21T15:54:18.5884384-05:00"
+    description: A Helm chart for Kubernetes Blue/Green Deployment
+    digest: 2ee16d3cd6c2fd3d219bcfe7d441480947855b61a7978967986a55020a500336
+    name: nonrevservices
+    urls:
+    - nonrevservices-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-21T15:54:18.5914504-05:00"
+    description: A Helm chart for Kubernetes Blue/Green Deployment
+    digest: 2ee16d3cd6c2fd3d219bcfe7d441480947855b61a7978967986a55020a500336
+    name: nonrevservices
+    urls:
+    - nrs/nonrevservices-0.1.0.tgz
+    version: 0.1.0
+  nonrevtraveladmin:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-21T15:54:18.5894372-05:00"
+    description: A Helm chart for Kubernetes Blue/Green Deployment
+    digest: 9324bf9b299143437bce873824ab96d386ee8fe1d5cc1a1c25909582af45cb96
+    name: nonrevtraveladmin
+    urls:
+    - nonrevtraveladmin-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-21T15:54:18.5914504-05:00"
+    description: A Helm chart for Kubernetes Blue/Green Deployment
+    digest: 9324bf9b299143437bce873824ab96d386ee8fe1d5cc1a1c25909582af45cb96
+    name: nonrevtraveladmin
+    urls:
+    - nrta/nonrevtraveladmin-0.1.0.tgz
+    version: 0.1.0
+  travelplanner:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-21T15:54:18.5904372-05:00"
+    description: A Helm chart for Kubernetes Blue/Green Deployment
+    digest: 870e30a459bbb0407aeab207cd14e82802453b7f843d962b2111ab9e2d4b9299
+    name: travelplanner
+    urls:
+    - travelplanner-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-21T15:54:18.592437-05:00"
+    description: A Helm chart for Kubernetes Blue/Green Deployment
+    digest: 870e30a459bbb0407aeab207cd14e82802453b7f843d962b2111ab9e2d4b9299
+    name: travelplanner
+    urls:
+    - travelplanner/travelplanner-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-21T15:54:18.5874364-05:00"
