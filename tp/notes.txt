@@ -1,0 +1,9 @@
+  
+1. Initial baseline setup 
+    helm upgrade --install nrs travel/travelplanner 
+2. enable green: 
+    helm upgrade --install nrs travel/travelplanner -f 1.yaml
+3. cutboer to blue:
+    helm upgrade --install nrs travel/travelplanner -f 2.yaml
+4. disbale blue:
+    helm upgrade --install nrs travel/travelplanner -f 3.yaml
