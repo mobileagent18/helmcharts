@@ -1,7 +1,7 @@
   
 1. Initial baseline setup 
-    helm upgrade --install nrta travel/nonrevservices 
+    helm upgrade --install nrta travel/nonrevtraveladmin 
 2. enable green: 
-    helm upgrade --install nrta travel/nonrevservices -f 1.yaml
+    helm upgrade --install nrta travel/nonrevtraveladmin -f 1.yaml
 3. disable blue:
-    helm upgrade --install nrta travel/nonrevservices -f 2.yaml
+    helm upgrade --install nrta travel/nonrevtraveladmin -f 2.yaml
