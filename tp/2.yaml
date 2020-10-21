@@ -1,0 +1,6 @@
+green:
+  enabled: true
+  image: nginx
+  version: 1.19.2
+
+productionSlot: green
