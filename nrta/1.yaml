@@ -1,0 +1,6 @@
+green:
+  enabled: true
+  image: gcr.io/google-samples/hello-frontend
+  version: '1.0'
+
+frontend_conf_green: server { listen 80; location / { proxy_pass http://nrs-service-beta; } }
